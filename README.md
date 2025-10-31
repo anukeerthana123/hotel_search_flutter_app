@@ -1,4 +1,4 @@
-# Flutter Hotel Search App
+# hotel_search_flutter_app
 
 ### 📱 Overview
 A 3-page Flutter app demonstrating Google Sign-In, hotel listing, and API-based search with pagination.
