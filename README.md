@@ -17,7 +17,25 @@ A 3-page Flutter app demonstrating Google Sign-In, hotel listing, and API-based 
 - google_sign_in
 - http
 
+### 🧠 Architecture
+- Follows feature-based clean architecture:
+  lib/
+  ├── core/
+  │ ├── network/
+  │ ├── constants/
+  │ └── utils/
+  ├── features/
+  │ ├── auth/
+  │ │ ├── data/
+  │ │ ├── domain/
+  │ │ └── presentation/
+  │ ├── home/
+  │ ├── search/
+  │ └── common_widgets/
+  └── main.dart
+
 ### ⚙️ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<yourusername>/hotel_search_flutter.git
+   git clone https://github.com/anukeerthana123/hotel_search_flutter_app.git
+   cd hotel_search_flutter_app
