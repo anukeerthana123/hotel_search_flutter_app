@@ -19,20 +19,7 @@ A 3-page Flutter app demonstrating Google Sign-In, hotel listing, and API-based 
 
 ### 🧠 Architecture
 - Follows feature-based clean architecture:
-  lib/
-  ├── core/
-  │ ├── network/
-  │ ├── constants/
-  │ └── utils/
-  ├── features/
-  │ ├── auth/
-  │ │ ├── data/
-  │ │ ├── domain/
-  │ │ └── presentation/
-  │ ├── home/
-  │ ├── search/
-  │ └── common_widgets/
-  └── main.dart
+  ![img.png](img.png)
 
 ### ⚙️ Setup Instructions
 1. Clone the repository:
