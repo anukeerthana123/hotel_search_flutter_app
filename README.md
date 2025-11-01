@@ -40,6 +40,12 @@ Built with Flutter’s Material 3 guidelines
 #### Networking	http 
 #### Architecture	Clean Architecture + BLoC
 #### IDE	Android Studio / VS Code
+#### Local Storage Hive (for saving user/session data locally)
+#### Environment Variables: flutter_dotenv (for storing API keys and base URLs securely)
+
+### 🔐 Environment Variables (.env)
+#### BASE_URL	Base URL for API calls
+#### AUTH_TOKEN	 Auth token
 
 ### 🏗️ Project Structure
 ![img.png](img.png)
