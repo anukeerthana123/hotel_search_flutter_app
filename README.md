@@ -33,14 +33,13 @@ Adaptive layouts for both Android & iOS
 Built with Flutter’s Material 3 guidelines
 
 ### 🧩 Tech Stack
-# Category	Tools / Packages
-# Framework	Flutter 3.x
-# Language	Dart 3.x
-# State Management	flutter_bloc
-# Auth	google_sign_in
-# Networking	http / dio
-# Architecture	Clean Architecture + BLoC
-# IDE	Android Studio / VS Code
+#### Category	Tools / Packages
+#### Framework	Flutter 3.x
+#### Language	Dart 3.x
+#### State Management	flutter_bloc
+#### Networking	http 
+#### Architecture	Clean Architecture + BLoC
+#### IDE	Android Studio / VS Code
 
 ###🏗️ Project Structure
      ![img.png](img.png)
