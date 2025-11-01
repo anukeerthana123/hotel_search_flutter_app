@@ -41,30 +41,30 @@ Built with Flutter’s Material 3 guidelines
 #### Architecture	Clean Architecture + BLoC
 #### IDE	Android Studio / VS Code
 
-###🏗️ Project Structure
+### 🏗️ Project Structure
      ![img.png](img.png)
 
-###🧠 Folder Explanation
+### 🧠 Folder Explanation
 
-core/ → Shared logic (networking, constants, utils)
-features/ → Each app module with data, domain, presentation layers
-common_widgets/ → Reusable custom UI components
-main.dart → App entry point with route setup
+#### core/ → Shared logic (networking, constants, utils)
+#### features/ → Each app module with data, domain, presentation layers
+#### common_widgets/ → Reusable custom UI components
+#### main.dart → App entry point with route setup
 
-###🎯 Highlights
+### 🎯 Highlights
 
-⭐ Follows Clean Architecture Principles
-⭐ Organized and scalable folder structure
-⭐ Error handling and loading states integrated
-⭐ UI aligned with Material 3 guidelines
-⭐ Ready for backend integration
+#### ⭐ Follows Clean Architecture Principles
+#### ⭐ Organized and scalable folder structure
+#### ⭐ Error handling and loading states integrated
+#### ⭐ UI aligned with Material 3 guidelines
+#### ⭐ Ready for backend integration
 
-###🖼️ Screenshots
-
-
+### 🖼️ Screenshots
 
 
-###⚙️ Installation
+
+
+### ⚙️ Installation
 
 1. Clone the repository:
    ```bash
@@ -83,7 +83,7 @@ main.dart → App entry point with route setup
    ```bash
    flutter run
 
-###🧪 Testing
+### 🧪 Testing
 
 1. Run all tests using:
    ```bash
