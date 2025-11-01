@@ -74,6 +74,8 @@ flutter:
     - screenshots/dasboard.png
     - screenshots/login.png
     - screenshots/search.png
+    - screenshots/dashboard_detail.png
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

@@ -8,6 +8,7 @@ import 'package:mytravaly/core/utils/shared_preference.dart';
 import 'package:mytravaly/features/Dashboard/presentation/bloc/dasboard_hotel_list.event.dart';
 import 'package:mytravaly/features/Dashboard/presentation/bloc/dasboard_hotel_list_bloc.dart';
 import 'package:mytravaly/features/Dashboard/presentation/bloc/dasboard_hotel_list_state.dart';
+import 'package:mytravaly/features/Dashboard/presentation/widgets/dashboard_hotel_card_detail.dart';
 import 'package:mytravaly/features/Dashboard/presentation/widgets/dashboard_search_overlay.dart';
 import 'package:mytravaly/features/Dashboard/presentation/widgets/hotel_search_card.dart';
 import 'package:mytravaly/features/google_signIn_signUp/presentation/screens/google_signin_screen.dart';
@@ -307,27 +308,12 @@ class _DashboardPageState extends State<DashboardPage>
                                 child: HotelCard(
                                   hotel: hotel,
                                   onTap: () {
-                                    // hero transition handled inside HotelCard
-                                    Navigator.push(
+                                    Navigator.pushReplacement(
                                       context,
-                                      PageRouteBuilder(
-                                        transitionDuration:
-                                            const Duration(milliseconds: 600),
-                                        reverseTransitionDuration:
-                                            const Duration(milliseconds: 450),
-                                        pageBuilder: (context, a1, a2) =>
-                                            FadeTransition(
-                                                opacity: a1,
-                                                child: /* detail page */
-                                                    Scaffold(
-                                                  appBar: AppBar(
-                                                      backgroundColor: teal,
-                                                      title: Text(
-                                                          hotel.propertyName)),
-                                                  body: Center(
-                                                      child: Text(
-                                                          'Detail screen placeholder for ${hotel.propertyName}')),
-                                                )),
+                                      MaterialPageRoute(
+                                        builder: (_) => HotelDetailPage(
+                                          hotel: hotel,
+                                        ),
                                       ),
                                     );
                                   },

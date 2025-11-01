@@ -64,6 +64,7 @@ Built with Flutter’s Material 3 guidelines
 #  <img src="assets/screenshots/login.png" width="230"/>
 #  <img src="assets/screenshots/dashboard.png" width="230"/>
 #  <img src="assets/screenshots/search.png" width="230"/>
+#  <img src="assets/screenshots/dashboard_detail.png" width="230"/>
 # </p>
 
 
