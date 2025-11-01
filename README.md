@@ -60,9 +60,12 @@ Built with Flutter’s Material 3 guidelines
 #### ⭐ Ready for backend integration
 
 ### 🖼️ Screenshots
-## ![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+# <p align="center">
+#  <img src="assets/screenshots/login.png" width="230"/>
+#  <img src="assets/screenshots/dashboard.png" width="230"/>
+#  <img src="assets/screenshots/search.png" width="230"/>
+# </p>
+
 
 
 
