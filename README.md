@@ -1,11 +1,11 @@
-#🌟 Hotel Search Flutter App
+# 🌟 Hotel Search Flutter App
 
-###🚀 Overview
+### 🚀 Overview
 
 Hotel Search Flutter App is a modern, 3-page mobile application built with Flutter and BLoC architecture, designed to demonstrate clean code structure, state management, and API integration best practices.
 It showcases Google Sign-In, hotel listings, and real-time search with pagination — all wrapped in a visually polished UI.
 
-###✨ Features
+### ✨ Features
 
 ✅ Google Sign-In (Frontend)
 
@@ -32,15 +32,15 @@ Clean Architecture separation: Data, Domain, and Presentation layers
 Adaptive layouts for both Android & iOS
 Built with Flutter’s Material 3 guidelines
 
-###🧩 Tech Stack
-Category	Tools / Packages
-Framework	Flutter 3.x
-Language	Dart 3.x
-State Management	flutter_bloc
-Auth	google_sign_in
-Networking	http / dio
-Architecture	Clean Architecture + BLoC
-IDE	Android Studio / VS Code
+### 🧩 Tech Stack
+# Category	Tools / Packages
+# Framework	Flutter 3.x
+# Language	Dart 3.x
+# State Management	flutter_bloc
+# Auth	google_sign_in
+# Networking	http / dio
+# Architecture	Clean Architecture + BLoC
+# IDE	Android Studio / VS Code
 
 ###🏗️ Project Structure
      ![img.png](img.png)
